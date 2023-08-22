@@ -17,9 +17,7 @@ public class uocsochiahetcho2 {
         if( n % 2 ==0) return true;
         return n>1;
     }
-    public static void uocso(long n){
-        
-        
+    public static void uocso(long n){         
         if(ktrachanle( n)== true) {
             int dem = 0;
             while( n>1){
@@ -32,8 +30,7 @@ public class uocsochiahetcho2 {
             }
             System.out.println(dem); 
         }
-        if(ktrachanle(n)== false) System.out.println(0); 
-        
+        if(ktrachanle(n)== false) System.out.println(0);         
     }
     public static void main(String[] args) {
         int t= sc.nextInt();
