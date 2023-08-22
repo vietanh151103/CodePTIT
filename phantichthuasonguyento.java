@@ -17,13 +17,11 @@ public class phantichthuasonguyento {
         //long n = N;
         System.out.print("Test "+ t +": " );
         for(int i = 2; i<= n; i++){           
-            int dem = 0;
-          
+            int dem = 0;          
             while( n % i ==0){
                 dem ++;
                 n = n/i;
-            }
-            
+            }          
             if( dem != 0)
                 System.out.printf("%d(%d) ", i , dem); 
         }
