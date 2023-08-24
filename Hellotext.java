@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author User
  */
-public class Hellotext {
+public class HelloFile {
     public static void main(String[] args)throws Exception {
         File file = new File("C:\\Users\\User\\Desktop\\Hello.txt");
         Scanner sc = new Scanner(file);
