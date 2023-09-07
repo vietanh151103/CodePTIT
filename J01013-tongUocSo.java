@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package CodePTIT;
 
 import java.util.Scanner;
 
-/**
- *
- * @author User
- */
 public class tonguocso {
     public static Scanner sc = new Scanner(System.in);
     public static long sum=0;
@@ -26,11 +18,9 @@ public class tonguocso {
                     check[(int)j] = 0;
                 }
             }
-        }
-        
+        }    
     }
-    public static void tong(long n){
-        
+    public static void tong(long n){    
         long tong = 0;
         for(long i = 2; i<= n; i++){
             if(check[(int)i] == 1 ){
@@ -56,7 +46,5 @@ public class tonguocso {
             tong(n);
         }
         System.out.println(sum);       
-      }
     }
-    
-
+}
