@@ -3,15 +3,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author vieta
- */
 public class hinhvuong {
     public static int[] t = new int[4];
     public static int[] h = new int[4];
