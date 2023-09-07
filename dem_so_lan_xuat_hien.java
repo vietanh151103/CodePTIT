@@ -15,7 +15,7 @@ public class dem_so_lan_xuat_hien {
     public static void TestCase(int j){
         int n = sc.nextInt();
         int a[] = new int[n];
-        int dem[] = new int[100];
+        int dem[] = new int[10000];
         for(int i = 0 ; i < n; i++){
             a[i] = sc.nextInt();          
             dem[a[i]] ++;
