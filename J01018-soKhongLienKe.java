@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package CodePTIT;
 //J01018
 import java.util.Scanner;
 
-/**
- *
- * @author User
- */
 public class soKhonglienke {
     public static Scanner sc = new Scanner(System.in);
     public static void testCase(String s){     
