@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package CodePTIT;
 //boi so chung lon nhat va uoc so chung nho nhat
 import java.util.Scanner;
 
-/**
- *
- * @author User
- */
 public class J01011 {
     public static Scanner sc = new Scanner(System.in);
     public static long uocso(long a, long b){
