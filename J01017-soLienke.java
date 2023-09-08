@@ -1,4 +1,3 @@
-
 package CodePTIT;
 //J01017
 import java.util.Scanner;
