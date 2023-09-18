@@ -1,9 +1,7 @@
-package CodePTIT;
 //J03006
-
 import java.util.Scanner;
 
-public class sodep {
+public class J03006_SoDep1 {
     public static Scanner sc = new Scanner(System.in);
     public static boolean check(String s){
         int c = s.length() - 1;
